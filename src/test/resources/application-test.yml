@@ -1,0 +1,12 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+logging:
+  level:
+    root: DEBUG
+#    org.springframework: DEBUG
+    org.springframework.web: DEBUG
+#    org.springframework.boot: DEBUG
+#    org.apache.http: DEBUG
+    wiremock.org: DEBUG
